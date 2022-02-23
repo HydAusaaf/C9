@@ -26,6 +26,11 @@ function draw()
    
   }
 
+  if (keyIsDown(RIGHT_ARROW)) 
+  {
+    background("red");
+  }
+ 
   if (keyIsDown(DOWN_ARROW)) 
   {
     background("green");
